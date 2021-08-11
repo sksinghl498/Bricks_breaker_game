@@ -40,9 +40,6 @@ function drawPaddle() {
     paddle.width + 40,
     paddle.height + 150
   );
-
-  // ctx.strokeStyle = "#ffcd05";
-  // ctx.strokeRect(paddle.x, paddle.y, paddle.width, paddle.height);
 }
 
 // CONTROL THE PADDLE
@@ -85,7 +82,6 @@ function drawBall() {
   ctx.beginPath();
 
   ctx.arc(ball.x, ball.y, ball.radius, 0, Math.PI * 2);
-  // ctx.fillStyle = "#ffcd05";
   ctx.drawImage(
     BALL,
     ball.x - 20,
@@ -211,9 +207,6 @@ function drawBricks() {
           brick.width - 30,
           brick.height + 50
         );
-
-        // ctx.strokeStyle = brick.strokeColor;
-        // ctx.strokeRect(b.x, b.y, brick.width, brick.height);
       }
     }
   }

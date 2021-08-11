@@ -52,16 +52,12 @@ BACK.src = "sounds/back.mp3";
 const POWER_UP = new Audio();
 POWER_UP.src = "sounds/power_up.mp3";
 
-// (function back_audio() {
-//   BACK.play();
-// })();
+
 
 document.body.addEventListener("mousemove", function () {
     BACK.play()
 })
 
-// setTimeout(() => {
-//     BACK.play();
-// }, 2000)
+
 
 /////// END LOAD SOUNDS ////////

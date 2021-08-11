@@ -15,9 +15,6 @@ let mode_btn = document.querySelectorAll(".mode").forEach((mode_btn) => {
     mode.classList.toggle("dark");
     light_mode.classList.toggle("mode_display");
     dark_mode.classList.toggle("mode_display");
-
-    //   light_mode.style.display = light_mode.style.display="block"?"none":"block";
-    //   dark_mode.style.display = dark_mode.style.display="block"?"none":"block";
   });
 });
 card.classList.add("hide");
@@ -35,5 +32,3 @@ start.addEventListener("click", () => {
     alla.classList.remove("hide");
   }
 });
-
-
